@@ -93,9 +93,8 @@
 }
 
 #signature{
-	position: absolute;
-	right: 75;
-	bottom: 0;
+	position: relative;
+	float: right;
 }
 
 .hide{
