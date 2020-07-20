@@ -1,0 +1,131 @@
+#main{
+	
+}
+
+#header{
+	width: 310px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#txt{
+	font-size: 78px;
+	font-family: 'Jolly Lodger', cursive;
+	margin-top: -30px;
+}
+
+#hand{
+	background-image:url('hand.png');
+	width: 46px;
+	height: 248px;
+	margin: 0 auto;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 10;
+	opacity: 0.8;
+	position: absolute;
+	left: 267px;
+	top: 55px; 
+}
+
+#clock{
+	width: 575px;
+	height: 575px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#hours{
+	background-image:url('clock3.png');
+	position:absolute;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:575px;
+	height:575px;
+	-webkit-transition: all 1s ease-in-out 0;
+	-moz-transition: all 1s ease-in-out 0;
+	transition: all 1s ease-in-out 0;
+}
+
+#mins{
+	background-image:url('clock3.png');
+	position:absolute;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:385px;
+	height:385px;
+	top: 94px;
+	left: 97px;
+	-webkit-transition: all 1s ease-in-out 0;
+	-moz-transition: all 1s ease-in-out 0;
+	transition: all 1s ease-in-out 0;
+}
+
+#secs{
+	background-image:url('clock3.png');
+	background-repeat:no-repeat;
+	position:absolute;	
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:250px;
+	height:250px;
+	top: 161px;
+	left: 165px;
+	-webkit-transition: all 1s ease-in-out 0;
+	-moz-transition: all 1s ease-in-out 0;
+	transition: all 1s ease-in-out 0;
+}
+
+#tt{
+	position: absolute;
+	top: 210px;
+	left: 253px;
+	font-family: 'Rock Salt', cursive;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+#footer{
+	position: relative;
+}
+
+#signature{
+	position: absolute;
+	right: 75;
+	bottom: 0;
+}
+
+.hide{
+	display: none;
+}
+
+/* code for rotating numbers*/
+/*@keyframes circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
+}
+
+@keyframes inner-circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(-360deg); }
+}
+
+#rotator {
+   width:350px;
+    height:350px;
+    margin:20px auto;
+    font-size:10px;
+    line-height:1;
+    animation: circle 25s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+#rotator > div {
+    animation: inner-circle 25s linear infinite;
+    background-color:#e1e1e1;
+ width:50px;
+ height:50px;
+}*/
